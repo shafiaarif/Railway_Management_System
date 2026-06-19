@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - Railway Management System</title>
+  <style>
+   body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #000; /* Dark theme gradient */
+  color: #e0e0e0;
+}
+
+
+    .container {
+      max-width: 1200px;
+      margin: 60px auto;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .text-section {
+      flex: 1;
+      min-width: 300px;
+      padding: 20px;
+    }
+
+    .text-section h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+      color: #00bcd4;
+    }
+
+    .text-section h3 {
+      font-weight: 500;
+      font-size: 20px;
+      color: #00bcd4;
+      margin-bottom: 25px;
+    }
+
+    .text-section p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: white;
+    }
+
+    .image-section {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .image-section img {
+      width: 150px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease;
+    }
+
+    .image-section img:hover {
+      transform: scale(1.05);
+    }
+
+    @media screen and (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .image-section {
+        justify-content: center;
+      }
+
+      .image-section img {
+        height: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="text-section">
+    <h1>About Us</h1>
+    <h3>A Smarter Way to Travel Across the Nation</h3>
+    <p>
+      Welcome to our Railway Management System – a modern platform designed to transform the railway experience for millions of travelers. 
+      Whether you're booking a journey, checking schedules, or simply exploring train services, our system is built to make everything seamless and accessible.
+    </p>
+    <p>
+      We are committed to simplifying travel by integrating technology with reliable transport. With intuitive features and user-friendly design, we ensure a better, faster, and more organized travel experience.
+    </p>
+  </div>
+
+  <div class="image-section">
+    <img src="images/train1_.jpg" alt="Train Image 1" />
+    <img src="images/train2_.jpg" alt="Train Image 2" />
+    <img src="images/train3_.jpg" alt="Train Image 3" />
+  </div>
+</div>
+
+</body>
+</html>
